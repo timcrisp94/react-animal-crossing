@@ -8,3 +8,4 @@ function getFossils() {
 export {
   getFossils
 }
+

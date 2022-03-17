@@ -7,6 +7,7 @@ function App() {
     <>
       <h1>Sanity Check</h1>
       <a href="/fossils">To the fossils!</a>
+      <a href='/villagers'>Villager List</a>
       <Routes>
         <Route path='/fossils' element={<FossilList />} />
       </Routes>

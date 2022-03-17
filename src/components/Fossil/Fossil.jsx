@@ -11,4 +11,4 @@ const Fossil = (props) => {
   );
 }
 
-export default Fossil;
+export default Fossil

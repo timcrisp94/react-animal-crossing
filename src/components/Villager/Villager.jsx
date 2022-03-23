@@ -1,10 +1,13 @@
 const Villager = (props) => {
   return ( 
     <>
-      <h2>Villager</h2>
+      <div className="villager">
+        <img src={props.villager.image_uri}
+        alt="villager" />
+        <h2>{props.villager['file-name']}</h2>
+      </div>
     </>
-
-   );
+  );
 }
  
-export default Villager;
+export default Villager

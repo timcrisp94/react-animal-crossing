@@ -5,7 +5,14 @@ function getFossils() {
   .then(res => res.json())
 }
 
+function getVillagers() {
+  return fetch(`${baseUrl}/villagers`)
+  .then(res => res.json())
+}
+
+
 export {
-  getFossils
+  getFossils,
+  getVillagers
 }
  
